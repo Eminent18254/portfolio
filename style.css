@@ -67,7 +67,7 @@
   margin-left: 6%;
   margin-top: 20%;
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 
 .header-section > .hero-section > .hero-left > .cta {
@@ -126,15 +126,18 @@
 }
 /* image on hero section */
 .header-section > .hero-section > .hero-right {
-  height: 600px;
+  /* height: 600px; */
 }
 .header-section > .hero-section > .hero-right > img {
-  max-width: 600px;
-  width: 100%;
-  margin-left: 10%;
-  position: relative;
+  max-width:  100%;
+  width: 300px;
+  height: 280px;
+  /* object-fit: cover; */
+  margin-top: 30%;
+  margin-left: 70%;
+  /* position: relative;
   bottom: 30%;
-  left: 15%;
+  left: 15%; */
   /* background-color: transparent; */
   z-index: -3;
 
@@ -145,6 +148,7 @@
 
 main {
   background-color: #f9f9f9;
+ 
 }
 main > h2 {
   text-align: center;
@@ -153,6 +157,7 @@ main > h2 {
   margin-left: 5%;
   text-transform: uppercase;
   padding-top: 2%;
+  margin-top: 40%;
 }
 .about-us-section {
   display: flex;
@@ -161,7 +166,7 @@ main > h2 {
   border-radius: 8px;
   max-width: 900px;
   margin: 0 auto;
-  margin-top: 2%;
+  margin-top: 6%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -394,7 +399,7 @@ main > .project .P {
 .contact-form {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 5px;
   justify-content: center;
   margin-top: 2%;
 }
@@ -403,7 +408,7 @@ main > .project .P {
   flex: 1 1 300px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
 }
 
 .form-left input {
@@ -414,7 +419,7 @@ main > .project .P {
 
 .form-right {
   flex: 1 1 300px;
-}
+} 
 
 .form-right textarea {
   width: 100%;
@@ -541,20 +546,6 @@ main > .project .P {
   }
 }
 
-.contact-info {
-  flex-direction: column;
-  align-items: center;
-}
-
-.contact-form {
-  flex-direction: column;
-}
-
-.form-left,
-.form-right {
-  width: 100%;
-}
-
 @media (max-width: 490px) {
   .header-section > .nav-section > .logo a {
     font-size: 18px;
@@ -562,6 +553,7 @@ main > .project .P {
     display: inline-block;
     position: absolute;
     bottom: 96%;
+    display: inline;
   }
 
   .header-section > .nav-section > .nav-bar {
@@ -590,7 +582,16 @@ main > .project .P {
   .header-section > .hero-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
   }
+
+  .header-section > .hero-section > .hero-right > img{
+    position: absolute;
+    right:  60%;
+  }
+   
 
   .services-section > .services-cards {
     display: flex;
@@ -601,14 +602,20 @@ main > .project .P {
 
   .header-section > .hero-section {
     display: flex;
+    flex-direction: row;
+  }
+
+  .contact-section > .contact >.contact-container{
+    display: flex;
     flex-direction: column;
   }
 
-  .header-section > .hero-section > .hero-right > img {
-    display: flex;
-    flex-direction: column;
-    margin-top: 8%;
+  .contact-section > .contact >.contact-container > .contact-info{
+    gap: 90px;
+    align-content: space-between;
   }
+  
+
   .project-section {
     margin-top: 8%;
   }
