@@ -511,15 +511,15 @@ main > .project .P {
 }
 
 .footer-section .footer-bottom {
-  background-color: #2e2f4b;
-  color: white;
+  background-color: #cdfe7d;
+  color: black;
   font-weight: 500;
   padding: 10px 0;
 }
 
 .footer-section .footer-bottom p {
   margin: 0;
-  font-size: 0.9em;
+  font-size:1rem;
 }
 
 /* Responsive */
