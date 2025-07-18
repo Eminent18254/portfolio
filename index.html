@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header-section">
+      <nav class="nav-section">
+        <!-- website  logo -->
+        <div class="logo">
+          <a href="#"> Great</a>
+        </div>
+
+        <!-- navigation menu -->
+
+        <div class="nav-bar">
+          <a href="">Home</a>
+          <a href="#about">About</a>
+          <a href="">Services</a>
+          <a href="">Project </a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <!--  Hamburger menu icon -->
+      <div class="hamburger-menu" onclick="toggleBar();">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </div>
+      <!-- End of hamburger menu -->
+
+      <!-- HERO SECTION -->
+
+      <div class="hero-section">
+        <div class="hero-left">
+          <div class="cta"><span></span> Looking for a developer !</div>
+
+          <h1>I'm Great Esegbue</h1>
+          <p>A web develper experienced in all stages of development</p>
+
+          <div class="hero-buttons">
+            <a href="mailto:greatesegbue@gmail.com" class="btn primary"
+              >Hire me</a
+            >
+            <a href="/" class="btn secondary"
+              >Download CV <i class="fa-solid fa-download"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <!-- <img src="images/hero.png" alt="hero" /> -->
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h2>About me</h2>
+      <section class="about-us-section" id="about">
+        <div class="personal-details">
+          <h3>Personal Details</h3>
+          <p><strong>Email:</strong> eminentnew@gmail.com</p>
+          <p><strong>Languages:</strong> English</p>
+          <p><strong>Nationality:</strong> Nigerian</p>
+        </div>
+        <div class="about-description">
+          <h2>I am a <span class="highlight">Web Developer</span></h2>
+          <p>
+            Obviously I'm a Web Developer with over 3 years of experience.
+            Experienced with all stages of the development cycle for dynamic web
+            projects.
+          </p>
+          <p class="signature">Great</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- my services section -->
+
+    <div class="services-section">
+      <h3>My services</h3>
+      <p>
+        I'm a Web Developer. Experienced with all stages of the development
+        cycle for dynamic web projects.
+      </p>
+
+      <div class="services-cards">
+        <!-- card one -->
+        <div class="cards">
+          <p class="services">Html</p>
+
+          <!-- Services rating below -->
+          <div class="rating">
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star"></i>
+          </div>
+        </div>
+
+        <!-- card two -->
+        <div class="cards">
+          <p class="services">Css</p>
+
+          <!-- Services ratings below -->
+
+          <div class="rating">
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star"></i>
+          </div>
+        </div>
+
+        <!-- card three -->
+
+        <div class="cards">
+          <p class="services">Javascript</p>
+
+          <div class="rating">
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- my projects -->
+    <section class="project-section">
+      <h3>My Projects</h3>
+
+      <div class="projects">
+        <div class="project-card">
+          <img src="images/project-one.png" alt="" />
+          <h3>Landing page</h3>
+          <a href="">Visit site</a>
+        </div>
+
+        <div class="project-card">
+          <img src="images/project-two.png" alt="" />
+          <h3>Blog Project</h3>
+          <a href="" class="btn">Visit Site</a>
+        </div>
+
+        <div class="project-card">
+          <img src="images/project-three.png" alt="" />
+          <h3>Simple Landing page</h3>
+          <a href="" class="btn">Visit site</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact me section -->
+
+    <section class="contact-section" id="contact">
+      <div class="contact">
+        <div class="contact-container">
+          <div class="contact-info">
+            <i class="fa-solid fa-phone" style="color: black"></i>
+            <h3>Phone</h3>
+
+            <a href="tel:+2349127985878">09127985878</a>
+          </div>
+
+          <div class="contact-info">
+            <i class="fa-solid fa-envelope" style="color: black"></i>
+            <h3>Email</h3>
+            <a href="mailto:contact@example.com">contactme@gmail.com</a>
+          </div>
+
+          <div class="contact-info">
+            <i class="fa-solid fa-location-dot" style="color: black"></i>
+            <h3>Location</h3>
+            <a href="https://maps.google.com" target="_blank"
+              >View on Google map</a
+            >
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <div class="form-left">
+            <input type="text" placeholder="First Name :" required />
+            <input type="email" placeholder="Your email :" required />
+            <input type="text" placeholder="Your subject :" required />
+          </div>
+          <div class="form-right">
+            <textarea placeholder="Your Message :" required></textarea>
+          </div>
+        </form>
+        <button type="submit" class="send-btn">Send Message</button>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer-section">
+      <div class="footer-content">
+        <p>I'm a web developer experienced in all stages of development</p>
+
+        <!-- socials -->
+
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Queue. Design by Great</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
