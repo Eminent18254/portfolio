@@ -251,9 +251,10 @@ main {
   background-color: white;
   max-width: 350px;
   width: 200px;
-  height: 100px;
+  height: 60px;
   border-radius: 15px;
   box-shadow: 0 4px 8px #0000001a;
+  padding-bottom: 80px;
 }
 
 .services-section > .services-cards > .cards h5 {
@@ -355,6 +356,13 @@ main > .project .P {
   padding: 60px 20px;
   background: #fff;
   margin-top: 8%;
+}
+
+.contact-section > h3{
+  text-align: center;
+  margin-bottom: 4%;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .contact-section > .contact > .contact-container {
@@ -592,6 +600,7 @@ main > .project .P {
     right:  60%;
   }
    
+  /* services  */
 
   .services-section > .services-cards {
     display: flex;
